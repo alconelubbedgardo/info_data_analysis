@@ -13,7 +13,7 @@ connection = psycopg2.connect(
 
 # Habilitar la confirmación automática de transacciones
 connection.autocommit = True
-#print(connection)
+print(connection)
 
 # Definimos la funcion para crear tabla en postgres:
 def crear_tabla():
